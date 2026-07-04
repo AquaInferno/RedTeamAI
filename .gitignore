@@ -1,0 +1,16 @@
+# Personal scope — NEVER commit your real target list.
+# Only allowlist.example.json (placeholder IPs) should be tracked.
+config/allowlist.json
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Local findings DB and generated reports — personal data, not for sharing
+reports/
+
+# Machine-specific MCPB build artifacts — paths are hardcoded per-machine
+# (venv location, username), so a packed .mcpb from one machine will not
+# work on another. Regenerate per-deployment instead of committing.
+*.mcpb

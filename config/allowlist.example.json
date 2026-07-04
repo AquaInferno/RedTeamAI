@@ -1,0 +1,5 @@
+[
+  {"ip": "192.0.2.10", "label": "REPLACE ME — e.g. My Phone"},
+  {"ip": "192.0.2.11", "label": "REPLACE ME — e.g. My Desktop"},
+  {"ip": "192.0.2.12", "label": "REPLACE ME — e.g. My Laptop"}
+]
