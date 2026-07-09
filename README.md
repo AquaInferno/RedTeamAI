@@ -58,7 +58,7 @@ layer, so there's no single bypass point.
 ### 1. Clone and set scope FIRST
 
 ```bash
-git clone <your-repo-url> ai-redteam
+git clone https://github.com/AquaInferno/RedTeamAI ai-redteam
 cd ai-redteam
 cp config/allowlist.example.json config/allowlist.json
 ```
